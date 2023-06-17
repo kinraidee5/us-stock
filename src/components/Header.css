@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 20px 25px;
+    text-decoration: none;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-left a{
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    transition: transform 0.3s;
+  }
+  .nav-left p{
+    text-decoration: none;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-right a{
+    text-decoration: none;
+  }
+
+  .nav-right div {
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 7px;
+  }
+  
+  .nav-right div:hover {
+    background-color: #106eea;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .active {
+    background-color: #106eea;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+  }
